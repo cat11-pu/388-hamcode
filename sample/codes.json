@@ -1,0 +1,19 @@
+{
+  "budget": 4,
+  "bad_nibble_code": "E_BAD_NIBBLE",
+  "bad_pos_code": "E_BAD_POS",
+  "bad_bit_code": "E_BAD_BIT",
+  "no_word_code": "E_NO_WORD",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "words": [], "decoded": [], "fixed": [], "drops": [], "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "enc", "value": 10 },
+    { "id": 2, "kind": "flip", "pos": 1, "bit": 3 },
+    { "id": 3, "kind": "dec", "pos": 1 },
+    { "id": 4, "kind": "flip", "pos": 1, "bit": 5 },
+    { "id": 5, "kind": "dec", "pos": 1 },
+    { "id": 6, "kind": "enc", "value": 3 },
+    { "id": 7, "kind": "flip", "pos": 2, "bit": 8 },
+    { "id": 8, "kind": "dec", "pos": 2 }
+  ]
+}
